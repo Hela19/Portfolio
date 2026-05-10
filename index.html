@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio website</title>
+  </head>
+  <body>
+    <nav>
+      <a class="logo"><span>Hela Bouaziz</span></a>
+      <ul class="nav-links">
+        
+        <li><a href="#AboutMe">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#Project">Project</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+      <div class="menuButn">
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <button class="visitGithub-btn"><a href="https://github.com/Hela19">Visit Github</a></button>
+      </div>
+    </nav>
+
+    <section id="AboutMe" class="about">
+      <div class="about-container">
+        <img src="image/Myphoto.jpg" alt="monPhoto" />
+        <div class="info-box">
+          <div class="text">
+            <h3>Hi , Iam</h3>
+            <h1>Hela Bouaziz</h1>
+            <span>Bachelor's degree student in Computer Science</span>
+          </div>
+          <div class="btn-group">
+            <a href="Hela_Bouaziz_CV.pdf" download>
+            <button>Download CV</button>
+            </a>
+            <a href="#Contact">
+            <button>Contact</button></a>
+          </div>
+
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/hela-bouaziz"><i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href=" https://github.com/Hela19"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="experience">
+      <h2 class="section-title">Experience</h2>
+      
+        <div class="grid">
+          <div class="grid-card">
+            <i class="fa-solid fa-laptop"></i>
+            <span><h2>Web Development Internship - 21C'DIGITAL</h2></span>
+            <h3>1 month</h3>
+            <p>Development of a website for a training center using HTML, CSS, and JavaScript (front-end).
+Participation in setting up the back-end using Node.js and Express, as well as managing a MySQL database via phpMyAdmin.</p>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-laptop"></i>
+            <span><h2>Front-End Web Development Intern - Code Alpha</h2></span>
+            <h3>1 month</h3>
+            
+            <p>
+
+Completed a front-end web development internship focused on building responsive and interactive web applications.
+Designed and developed a personal portfolio website showcasing projects, skills, and contact information using HTML, CSS, and JavaScript.</p>
+          </div>
+        </div>
+        
+      
+    </section>
+    
+    
+    <section id="Project">
+      <h3 class="section-title">Projects</h3>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>learning Center WebSite</h3>
+          <img src="image/stageEte.png" alt="Centre-de-formation-projet-img" />
+          <div class="btn-group">
+            <button>Live Demo</button>
+            <button>Github Repo</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Portfolio </h3>
+          <img src="image/portfolio.png" alt="portfolio-projet-img" />
+          <div class="btn-group">
+            <button>Live Demo</button>
+            <button>Github Repo</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Image Gallery WebSite</h3>
+          <img src="image/ImageGalleryWebSite.png" alt="Image-gallery-projet-img" />
+          <div class="btn-group">
+            <button><a href="https://hela19.github.io/CodeAlpha_ImageGallery/" target="_blank" class="btn">
+  Live Demo
+</a></button>
+            <button> <a href="https://github.com/Hela19/CodeAlpha_ImageGallery" target="_blank">
+    GitHub Repo
+  </a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Contact" class="contact">
+      <div class="input-box">
+        <h2 class="section-title">Contact Me</h2>
+        <form action="https://formspree.io/f/xxxxx" method="POST">
+          <div class="input-groups">
+          <div class="input-group1">
+            <div class="input-box">
+              <input type="text" placeholder="Full Name">
+              <input type="email"placeholder="exemple@gmail.com">
+            </div>
+          </div>
+        <div class="input-group2">
+          <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+          <button>Submit</button>
+
+
+        </div>
+      </div></form>
+    </section>
+
+    <footer>
+      <ul>
+        <li><a href="#AboutMe">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#Project">Project</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+      <p class="copyright">©Tous droits réservés | Hela Bouaziz</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
