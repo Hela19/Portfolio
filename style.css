@@ -353,6 +353,7 @@ footer ul li a {
   nav #menu-icon {
     display: block;
     transition: 0.3s ease-in-out;
+    color: #2c2c2a;
   }
   nav #menu-icon:hover {
     transform: scale(1.1);
@@ -367,17 +368,25 @@ footer ul li a {
     margin-top: 1rem;
     width: 100%;
     padding: 1rem;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgba(243, 129, 197, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 3rem;
     display: none;
   }
   .nav-links li {
     margin-top: 1.5rem;
     padding: 1rem;
+    transition: 0.3s ease;
+  }
+  .nav-links li a {
+    color: #65645f;
+  }
+  .nav-links li:hover {
+    background-color: #d8d6f7;
+    border-radius: 3rem;
   }
   .nav-links.active {
     display: block;
